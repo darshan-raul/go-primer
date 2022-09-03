@@ -14,6 +14,7 @@ Contents:
     - Go AWS SDK
     - Go AWS lambda
 
+# Logging guide: https://www.datadoghq.com/blog/go-logging/
 
 ## References used:
 
