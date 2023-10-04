@@ -2,17 +2,12 @@
 
 This guide can be used to get decently skilled with Golang
 
-Contents:
 
-- Go basics
-- Go Advanced
-- Usecases:
-    - Go web framework
-    - Go logging
-    - Go graphql server
-    - Go GRPC server/client
-    - Go AWS SDK
-    - Go AWS lambda
+## Gotchas:
+
+- You can launch the docs locally by running `godoc -http :8000`. If you go to `localhost:8000/pkg` you will see all the packages installed on your system.
+    - If you don't have godoc command, then maybe you are using the newer version of Go (1.14 or later) which is no longer including godoc. You can manually install it with go install golang.org/x/tools/cmd/godoc@latest.
+
 
 # Logging guide: https://www.datadoghq.com/blog/go-logging/
 
