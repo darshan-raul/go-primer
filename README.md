@@ -3,6 +3,18 @@
 This guide can be used to get decently skilled with Golang
 
 
+## TDD:
+
+Steps:
+    - Write a test
+    - Make the compiler pass
+    - Run the test, see that it fails and check the error message is meaningful
+    - Write enough code to make the test pass
+    - Refactor
+
+By ensuring your tests are fast and setting up your tools so that running tests is simple you can get in to a state of flow when writing your code.
+By not writing tests you are committing to manually checking your code by running your software which breaks your state of flow and you won't be saving yourself any time, especially in the long run
+
 ## Gotchas:
 
 - You can launch the docs locally by running `godoc -http :8000`. If you go to `localhost:8000/pkg` you will see all the packages installed on your system.
