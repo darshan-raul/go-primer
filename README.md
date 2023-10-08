@@ -21,6 +21,8 @@ By not writing tests you are committing to manually checking your code by runnin
     - If you don't have godoc command, then maybe you are using the newer version of Go (1.14 or later) which is no longer including godoc. You can manually install it with go install golang.org/x/tools/cmd/godoc@latest.
 - The official site to visit any public package docs in golang is `https://pkg.go.dev`. If you are coming from the python background then this is similar to `pypi.org`
     - Here are the steps to publish: https://go.dev/doc/modules/publishing
+- Testing:
+    - It is important to question the value of your tests. It should not be a goal to have as many tests as possible, but rather to have as much confidence as possible in your code base. Having too many tests can turn in to a real problem and it just adds more overhead in maintenance. Every test has a cost.
 
 ## Reading list
 
