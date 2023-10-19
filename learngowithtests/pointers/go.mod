@@ -1,3 +1,3 @@
-module github.com/darshan-raul/go-primer/pointer
+module github.com/darshan-raul/pointers
 
 go 1.21.1
